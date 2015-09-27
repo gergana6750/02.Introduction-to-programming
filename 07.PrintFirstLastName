@@ -1,0 +1,17 @@
+using System;
+
+
+    class PrintFirstLastName
+    {
+        static void Main()
+        {
+            string MyFirstName = "Gergana";
+            string MyLastName = "Borisova";
+
+            Console.WriteLine("My first and last name: ");
+            Console.WriteLine(MyFirstName + " " + MyLastName);
+
+            // if  we use Console.Write(MyFirstName + " " + MyLastName) the result will be
+            // at the same line "My first and last name: Gergana Borisova"
+        }
+    }
