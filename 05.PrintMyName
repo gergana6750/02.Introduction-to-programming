@@ -1,0 +1,11 @@
+using System;
+
+
+    class PrintMyName
+    {
+        static void Main()
+        {
+            string MyName = "Gergana";
+            Console.WriteLine("My name is" + " " + MyName);
+        }
+    }
