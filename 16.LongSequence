@@ -1,0 +1,25 @@
+using System;
+
+//almost the same as problem 9, but the loop will have different limits
+    class LongSequence
+    {
+        static void Main()
+        {
+            for (int n = 2; n <= 1001; n++)
+            {
+                if (n % 2 == 0)
+                {
+                    Console.Write(n);
+                }
+                else
+                {
+                    Console.Write(-n);
+                }
+                if (n < 1001)
+                {
+                    Console.Write(", ");
+
+                }
+            }
+        }
+    }
