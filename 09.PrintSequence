@@ -1,0 +1,25 @@
+using System;
+
+
+    class PrintSequence
+    {
+        static void Main()
+        {
+            for (int n = 2; n <= 11; n++)
+            {
+                if (n % 2 == 0)
+                {
+                    Console.Write(n);
+                }
+                else
+                {
+                    Console.Write(-n);
+                }
+                if (n < 11)
+                {
+                    Console.Write(", ");
+
+                }
+            }
+        }
+    }
